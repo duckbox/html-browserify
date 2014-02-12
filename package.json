@@ -4,7 +4,7 @@
   "description": "Makes HTML files usuable as modules in Browserify",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -u exports -R spec test/index"
+    "test": "npm link mocha && mocha -u exports -R spec test/index"
   },
   "repository": {
     "type": "git",
