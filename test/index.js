@@ -24,18 +24,6 @@ module.exports = {
 				  done();
 				});
 
-			},
-			'Should run if not HTML' : function(done){
-				
-				fs.createReadStream(__dirname + '/test.hbs')
-				.pipe(lib(__dirname + '/test.hbs'))
-				.pipe(fs.createWriteStream(exportedHBS))
-				.on("close", function () {
-				  var template = require(exportedHBS);
-				  assert.notEqual(template, '<h1>Hai!</h1>');
-				  done();
-				});
-
 			}
 		}
 	}

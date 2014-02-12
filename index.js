@@ -5,11 +5,7 @@ module.exports = function(file) {
 	var buffer = '';
 
 	if (!/\.tpl|\.html/.test(file)) {
-		return through(function(){
-
-			this.emit('end');
-
-		});
+		return through();
 	} else {
 		return through(function(chunk) {
 
