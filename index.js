@@ -14,7 +14,10 @@ module.exports = function(file) {
 		}, function() {
 			
 			var jst = buffer.toString(),
-				compiled = 'module.exports = "' + jst + '";\n';
+				compiled = 'module.exports = ';
+
+			compiled += JSON.stringify(jst);
+			compiled += ';\n';
 			
 			this.queue(compiled);
 			return this.queue(null);
