@@ -17,12 +17,12 @@
     "url": "http://duckbox.net"
   },
   "bugs": {
-    "url": "https://github.com/duckbox/grunt-ng-template/issues"
+    "url": "https://github.com/duckbox/html-browserify/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/duckbox/grunt-ng-template.git/blob/master/LICENSE-MIT"
+      "url": "https://github.com/duckbox/html-browserify.git/blob/master/LICENSE-MIT"
     }
   ],
   "keywords": [
