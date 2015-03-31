@@ -7,5 +7,5 @@ node_js:
   - "0.10"
   - "0.8"
   - "0.6"
-install:
-  - sudo npm install -g mocha
+before_install:
+  - npm install -g mocha
