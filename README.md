@@ -6,11 +6,11 @@ html-browserify
 
 Simple HTML transform for Browserify
 
-##Install
+## Install
 
 	npm install html-browserify
 
-##Usuage with Gulp
+## Usage with Gulp
 
 ```javascript
 
